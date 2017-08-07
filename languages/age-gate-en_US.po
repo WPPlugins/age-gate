@@ -1,0 +1,494 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Age Gate\n"
+"POT-Creation-Date: 2017-07-05 16:33+0100\n"
+"PO-Revision-Date: 2017-07-05 16:34+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.0.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: age-gate.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#. Plugin Name of the plugin/theme
+#: admin/class-age-gate-admin.php:131 admin/class-age-gate-admin.php:132
+#: dist/admin/class-age-gate-admin.php:131
+#: dist/admin/class-age-gate-admin.php:132
+msgid "Age Gate"
+msgstr "Age Gate"
+
+#: admin/class-age-gate-admin.php:150 dist/admin/class-age-gate-admin.php:150
+msgid "Settings"
+msgstr "Settings"
+
+#: admin/class-age-gate-admin.php:181 dist/admin/class-age-gate-admin.php:181
+msgid "Restrict content to "
+msgstr "Restrict content to "
+
+#: admin/class-age-gate-admin.php:203 dist/admin/class-age-gate-admin.php:203
+msgid "Do not restrict this page"
+msgstr "Do not restrict this page"
+
+#: admin/class-age-gate-admin.php:261 dist/admin/class-age-gate-admin.php:261
+msgid "Restriction settings"
+msgstr "Restriction settings"
+
+#: admin/class-age-gate-admin.php:269 dist/admin/class-age-gate-admin.php:269
+msgid "Age gate messaging settings"
+msgstr "Age gate messaging settings"
+
+#: admin/class-age-gate-admin.php:277 dist/admin/class-age-gate-admin.php:277
+msgid "Age gate style settings"
+msgstr "Age gate style settings"
+
+#: admin/class-age-gate-admin.php:285 dist/admin/class-age-gate-admin.php:285
+msgid "Caching"
+msgstr "Caching"
+
+#: admin/class-age-gate-admin.php:293 dist/admin/class-age-gate-admin.php:293
+msgid "Miscellaneous"
+msgstr "Miscellaneous"
+
+#: admin/class-age-gate-admin.php:313 dist/admin/class-age-gate-admin.php:313
+msgid "Users must be"
+msgstr "Users must be"
+
+#: admin/class-age-gate-admin.php:324 dist/admin/class-age-gate-admin.php:324
+msgid "years or older to view content"
+msgstr "years or older to view content"
+
+#: admin/class-age-gate-admin.php:330 dist/admin/class-age-gate-admin.php:330
+msgid "Restrict"
+msgstr "Restrict"
+
+#: admin/class-age-gate-admin.php:339 dist/admin/class-age-gate-admin.php:339
+msgid "All content"
+msgstr "All content"
+
+#: admin/class-age-gate-admin.php:339 dist/admin/class-age-gate-admin.php:339
+msgid "Selected Content"
+msgstr "Selected Content"
+
+#: admin/class-age-gate-admin.php:346 dist/admin/class-age-gate-admin.php:346
+msgid "Restrict registration"
+msgstr "Restrict registration"
+
+#: admin/class-age-gate-admin.php:354 dist/admin/class-age-gate-admin.php:354
+msgid "Age check users during registering"
+msgstr "Age check users during registering"
+
+#: admin/class-age-gate-admin.php:356 dist/admin/class-age-gate-admin.php:356
+msgid "Your site does not allow registration, so this option is not applicable"
+msgstr ""
+"Your site does not allow registration, so this option is not applicable"
+
+#: admin/class-age-gate-admin.php:362 dist/admin/class-age-gate-admin.php:362
+msgid "Validate age using"
+msgstr "Validate age using"
+
+#: admin/class-age-gate-admin.php:371 dist/admin/class-age-gate-admin.php:371
+msgid "Input fields"
+msgstr "Input fields"
+
+#: admin/class-age-gate-admin.php:371 dist/admin/class-age-gate-admin.php:371
+msgid "Dropdown boxes"
+msgstr "Dropdown boxes"
+
+#: admin/class-age-gate-admin.php:371 dist/admin/class-age-gate-admin.php:371
+msgid "Yes/No"
+msgstr "Yes/No"
+
+#: admin/class-age-gate-admin.php:377 dist/admin/class-age-gate-admin.php:377
+msgid "Remember"
+msgstr "Remember"
+
+#: admin/class-age-gate-admin.php:385 dist/admin/class-age-gate-admin.php:385
+msgid "Enable \"remember me\" checkbox"
+msgstr "Enable “remember me” checkbox"
+
+#: admin/class-age-gate-admin.php:392 dist/admin/class-age-gate-admin.php:392
+msgid "Date format"
+msgstr "Date format"
+
+#: admin/class-age-gate-admin.php:401 dist/admin/class-age-gate-admin.php:401
+msgid "DD MM YYYY"
+msgstr "DD MM YYYY"
+
+#: admin/class-age-gate-admin.php:401 dist/admin/class-age-gate-admin.php:401
+msgid "MM DD YYYY"
+msgstr "MM DD YYYY"
+
+#: admin/class-age-gate-admin.php:407 dist/admin/class-age-gate-admin.php:407
+msgid "Ignore logged in"
+msgstr "Ignore logged in"
+
+#: admin/class-age-gate-admin.php:415 dist/admin/class-age-gate-admin.php:415
+msgid "Logged in users will not need to provide their age"
+msgstr "Logged in users will not need to provide their age"
+
+#: admin/class-age-gate-admin.php:422 dist/admin/class-age-gate-admin.php:422
+msgid "No second chance"
+msgstr "No second chance"
+
+#: admin/class-age-gate-admin.php:430 dist/admin/class-age-gate-admin.php:430
+msgid ""
+"If someone fails the age test, they cannot try again until their next session"
+msgstr ""
+"If someone fails the age test, they cannot try again until their next session"
+
+#: admin/class-age-gate-admin.php:437 dist/admin/class-age-gate-admin.php:437
+msgid "Redirect failures"
+msgstr "Redirect failures"
+
+#: admin/class-age-gate-admin.php:445 dist/admin/class-age-gate-admin.php:445
+msgid ""
+"If someone fails the age test, redirect them to a page or external site "
+"rather than showing errors."
+msgstr ""
+"If someone fails the age test, redirect them to a page or external site "
+"rather than showing errors."
+
+#: admin/class-age-gate-admin.php:458 dist/admin/class-age-gate-admin.php:458
+msgid "Headline"
+msgstr "Headline"
+
+#: admin/class-age-gate-admin.php:475 dist/admin/class-age-gate-admin.php:475
+msgid "Sub headline"
+msgstr "Sub headline"
+
+#: admin/class-age-gate-admin.php:492 dist/admin/class-age-gate-admin.php:492
+msgid "Invalid inputs"
+msgstr "Invalid inputs"
+
+#: admin/class-age-gate-admin.php:509 dist/admin/class-age-gate-admin.php:509
+msgid "Under age"
+msgstr "Under age"
+
+#: admin/class-age-gate-admin.php:526 dist/admin/class-age-gate-admin.php:526
+msgid "Generic error"
+msgstr "Generic error"
+
+#: admin/class-age-gate-admin.php:546 dist/admin/class-age-gate-admin.php:546
+msgid "Logo"
+msgstr "Logo"
+
+#: admin/class-age-gate-admin.php:560 dist/admin/class-age-gate-admin.php:560
+msgid "Submit button text"
+msgstr "Submit button text"
+
+#: admin/class-age-gate-admin.php:577 dist/admin/class-age-gate-admin.php:577
+msgid "Background colour"
+msgstr "Background color"
+
+#: admin/class-age-gate-admin.php:593 dist/admin/class-age-gate-admin.php:593
+msgid "Background image"
+msgstr "Background image"
+
+#: admin/class-age-gate-admin.php:608 dist/admin/class-age-gate-admin.php:608
+msgid "Foreground colour"
+msgstr "Foreground color"
+
+#: admin/class-age-gate-admin.php:624 dist/admin/class-age-gate-admin.php:624
+msgid "Text colour"
+msgstr "Text color"
+
+#: admin/class-age-gate-admin.php:640 dist/admin/class-age-gate-admin.php:640
+msgid "Layout"
+msgstr "Layout"
+
+#: admin/class-age-gate-admin.php:648 admin/class-age-gate-admin.php:698
+#: dist/admin/class-age-gate-admin.php:648
+#: dist/admin/class-age-gate-admin.php:698
+msgid "Use plugin style on the front end"
+msgstr "Use plugin style on the front end"
+
+#: admin/class-age-gate-admin.php:655 dist/admin/class-age-gate-admin.php:655
+msgid "Viewport meta tag"
+msgstr "Viewport meta tag"
+
+#: admin/class-age-gate-admin.php:663 dist/admin/class-age-gate-admin.php:663
+msgid ""
+"Add viewport meta to Age Gate page <br><i>(width=device-width, minimum-"
+"scale=1, maximum-scale=1)</i>"
+msgstr ""
+"Add viewport meta to Age Gate page <br><i>(width=device-width, minimum-"
+"scale=1, maximum-scale=1)</i>"
+
+#: admin/class-age-gate-admin.php:672 dist/admin/class-age-gate-admin.php:672
+msgid "Use uncachable version"
+msgstr "Use uncachable version"
+
+#: admin/class-age-gate-admin.php:682 dist/admin/class-age-gate-admin.php:682
+msgid "Standard"
+msgstr "Standard"
+
+#: admin/class-age-gate-admin.php:682 dist/admin/class-age-gate-admin.php:682
+msgid "Cache bypass"
+msgstr "Cache bypass"
+
+#: admin/class-age-gate-admin.php:690 dist/admin/class-age-gate-admin.php:690
+msgid "Additional content"
+msgstr "Additional content"
+
+#: admin/class-age-gate-admin.php:806 dist/admin/class-age-gate-admin.php:806
+msgid "Select"
+msgstr "Select"
+
+#: admin/class-age-gate-admin.php:835 dist/admin/class-age-gate-admin.php:835
+msgid "Use this area to add an addtional info or terms of entry."
+msgstr "Use this area to add an addtional info or terms of entry."
+
+#: admin/class-age-gate-admin.php:862 dist/admin/class-age-gate-admin.php:862
+msgid "Custom"
+msgstr "Custom"
+
+#: admin/class-age-gate-admin.php:870 dist/admin/class-age-gate-admin.php:870
+msgid "Choose link"
+msgstr "Choose link"
+
+#: admin/class-age-gate-admin.php:873 dist/admin/class-age-gate-admin.php:873
+msgid "Remove link"
+msgstr "Remove link"
+
+#: admin/class-age-gate-admin.php:894 dist/admin/class-age-gate-admin.php:894
+msgid "Update the look of the age gate."
+msgstr "Update the look of the age gate."
+
+#: admin/class-age-gate-admin.php:897 dist/admin/class-age-gate-admin.php:897
+msgid "Set the messages users see on the age gate."
+msgstr "Set the messages users see on the age gate."
+
+#: admin/class-age-gate-admin.php:900 dist/admin/class-age-gate-admin.php:900
+msgid "Miscellaneous options."
+msgstr "Miscellaneous options."
+
+#: admin/class-age-gate-admin.php:903 dist/admin/class-age-gate-admin.php:903
+msgid ""
+"If you have a caching solution, it is best to use a JavaScript triggered "
+"version of the age gate as this won&rsquo;t be adversely affected by the "
+"cache. If you don&rsquo;t have caching, the standard method is recommended."
+msgstr ""
+"If you have a caching solution, it is best to use a JavaScript triggered "
+"version of the age gate as this won&rsquo;t be adversely affected by the "
+"cache. If you don&rsquo;t have caching, the standard method is recommended."
+
+#: admin/class-age-gate-admin.php:906 dist/admin/class-age-gate-admin.php:906
+msgid "Set the restrictions for your site."
+msgstr "Set the restrictions for your site."
+
+#: admin/class-age-gate-admin.php:926 dist/admin/class-age-gate-admin.php:926
+msgid "Add image"
+msgstr "Add image"
+
+#: admin/class-age-gate-admin.php:933 dist/admin/class-age-gate-admin.php:933
+msgid "Remove image"
+msgstr "Remove image"
+
+#: admin/class-age-gate-admin.php:983
+#| msgid ""
+#| "You are using the JavaScript implementation, if you have caching enabled "
+#| "ensure you purge it to see your changes"
+msgid ""
+"You are using the \"Cache Bypass\" implementation, if you have caching "
+"enabled ensure you purge it to see your changes"
+msgstr ""
+"You are using the \"Cache Bypass\" implementation, if you have caching "
+"enabled ensure you purge it to see your changes"
+
+#: dist/admin/class-age-gate-admin.php:983
+msgid ""
+"You are using the JavaScript implmentation, if you have caching enabled "
+"ensure you purge it to see your changes"
+msgstr ""
+"You are using the “Cache Bypass” implementation, if you have caching enabled "
+"ensure you purge it to see your changes"
+
+#: dist/public/class-age-gate-public.php:396
+#: public/class-age-gate-public.php:396
+msgid "Age Verification"
+msgstr "Age Verification"
+
+#: dist/public/partials/age-gate-public-display.php:73
+#: public/partials/age-gate-public-display.php:73
+msgid "Your input was invalid"
+msgstr "Your input was invalid"
+
+#: dist/public/partials/age-gate-public-display.php:81
+#: dist/public/partials/age-gate-public-display.php:102
+#: dist/public/partials/head/js-template.php:25
+#: public/partials/age-gate-public-display.php:81
+#: public/partials/age-gate-public-display.php:102
+#: public/partials/head/js-template.php:25
+msgid "You are not old enough to view this content"
+msgstr "You are not old enough to view this content"
+
+#: dist/public/partials/age-gate-public-display.php:85
+#: public/partials/age-gate-public-display.php:85
+msgid "Nonce failure, please try again"
+msgstr "Nonce failure, please try again"
+
+#: dist/public/partials/age-gate-public-display.php:92
+#: public/partials/age-gate-public-display.php:92
+msgid "An error occured, please try again"
+msgstr "An error occured, please try again"
+
+#: dist/public/partials/age-gate-public-display.php:108
+#: dist/public/partials/head/js-template.php:31
+#: public/partials/age-gate-public-display.php:108
+#: public/partials/head/js-template.php:31
+msgid "Remember me"
+msgstr "Remember me"
+
+#: dist/public/partials/form/buttons.php:1
+#: dist/public/partials/head/js-template.php:102
+#: public/partials/form/buttons.php:1 public/partials/head/js-template.php:102
+#, php-format
+msgid "Are you over %s years of age?"
+msgstr "Are you over %s years of age?"
+
+#: dist/public/partials/form/buttons.php:3
+#: dist/public/partials/head/js-template.php:104
+#: public/partials/form/buttons.php:3 public/partials/head/js-template.php:104
+msgid "Yes"
+msgstr "Yes"
+
+#: dist/public/partials/form/buttons.php:4
+#: dist/public/partials/head/js-template.php:105
+#: public/partials/form/buttons.php:4 public/partials/head/js-template.php:105
+msgid "No"
+msgstr "No"
+
+#: dist/public/partials/form/inputs.php:15
+#: dist/public/partials/form/selects.php:16
+#: dist/public/partials/head/js-template.php:64
+#: dist/public/partials/head/js-template.php:87
+#: public/partials/form/inputs.php:15 public/partials/form/selects.php:16
+#: public/partials/head/js-template.php:64
+#: public/partials/head/js-template.php:87
+msgid "Year"
+msgstr "Year"
+
+#: dist/public/partials/form/inputs.php:16
+#: dist/public/partials/form/selects.php:18
+#: dist/public/partials/head/js-template.php:65
+#: dist/public/partials/head/js-template.php:89
+#: public/partials/form/inputs.php:16 public/partials/form/selects.php:18
+#: public/partials/head/js-template.php:65
+#: public/partials/head/js-template.php:89
+msgid "YYYY"
+msgstr "YYYY"
+
+#: dist/public/partials/form/sections/input-day.php:2
+#: dist/public/partials/form/sections/select-day.php:2
+#: public/partials/form/sections/input-day.php:2
+#: public/partials/form/sections/select-day.php:2
+msgid "Day"
+msgstr "Day"
+
+#: dist/public/partials/form/sections/input-day.php:3
+#: dist/public/partials/form/sections/select-day.php:4
+#: public/partials/form/sections/input-day.php:3
+#: public/partials/form/sections/select-day.php:4
+msgid "DD"
+msgstr "DD"
+
+#: dist/public/partials/form/sections/input-month.php:2
+#: dist/public/partials/form/sections/select-month.php:2
+#: public/partials/form/sections/input-month.php:2
+#: public/partials/form/sections/select-month.php:2
+msgid "Month"
+msgstr "Month"
+
+#: dist/public/partials/form/sections/input-month.php:3
+#: dist/public/partials/form/sections/select-month.php:4
+#: public/partials/form/sections/input-month.php:3
+#: public/partials/form/sections/select-month.php:4
+msgid "MM"
+msgstr "MM"
+
+#: dist/public/partials/form/sections/select-month.php:5
+#: public/partials/form/sections/select-month.php:5
+msgid "Jan"
+msgstr "Jan"
+
+#: dist/public/partials/form/sections/select-month.php:6
+#: public/partials/form/sections/select-month.php:6
+msgid "Feb"
+msgstr "Feb"
+
+#: dist/public/partials/form/sections/select-month.php:7
+#: public/partials/form/sections/select-month.php:7
+msgid "Mar"
+msgstr "Mar"
+
+#: dist/public/partials/form/sections/select-month.php:8
+#: public/partials/form/sections/select-month.php:8
+msgid "Apr"
+msgstr "Apr"
+
+#: dist/public/partials/form/sections/select-month.php:9
+#: public/partials/form/sections/select-month.php:9
+msgid "May"
+msgstr "May"
+
+#: dist/public/partials/form/sections/select-month.php:10
+#: public/partials/form/sections/select-month.php:10
+msgid "Jun"
+msgstr "Jun"
+
+#: dist/public/partials/form/sections/select-month.php:11
+#: public/partials/form/sections/select-month.php:11
+msgid "Jul"
+msgstr "Jul"
+
+#: dist/public/partials/form/sections/select-month.php:12
+#: public/partials/form/sections/select-month.php:12
+msgid "Aug"
+msgstr "Aug"
+
+#: dist/public/partials/form/sections/select-month.php:13
+#: public/partials/form/sections/select-month.php:13
+msgid "Sep"
+msgstr "Sep"
+
+#: dist/public/partials/form/sections/select-month.php:14
+#: public/partials/form/sections/select-month.php:14
+msgid "Oct"
+msgstr "Oct"
+
+#: dist/public/partials/form/sections/select-month.php:15
+#: public/partials/form/sections/select-month.php:15
+msgid "Nov"
+msgstr "Nov"
+
+#: dist/public/partials/form/sections/select-month.php:16
+#: public/partials/form/sections/select-month.php:16
+msgid "Dec"
+msgstr "Dec"
+
+#. Plugin URI of the plugin/theme
+msgid "https://philsbury.uk/wordpress-age-gate-plugin"
+msgstr "https://philsbury.uk/wordpress-age-gate-plugin"
+
+#. Description of the plugin/theme
+msgid "A customisable age gate to block content from younger people"
+msgstr "A customisable age gate to block content from younger people"
+
+#. Author of the plugin/theme
+msgid "Phil Baker"
+msgstr "Phil Baker"
+
+#. Author URI of the plugin/theme
+msgid "https://philsbury.uk"
+msgstr "https://philsbury.uk"

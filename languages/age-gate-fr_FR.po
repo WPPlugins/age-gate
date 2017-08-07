@@ -1,0 +1,388 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Project-Id-Version: Age Gate\n"
+"POT-Creation-Date: 2017-05-30 16:18+0100\n"
+"PO-Revision-Date: 2017-05-30 16:20+0100\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: age-gate.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: fr_FR\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#. Plugin Name of the plugin/theme
+#: admin/class-age-gate-admin.php:133 admin/class-age-gate-admin.php:134
+msgid "Age Gate"
+msgstr "Age Gate"
+
+#: admin/class-age-gate-admin.php:152
+msgid "Settings"
+msgstr "Réglages"
+
+#: admin/class-age-gate-admin.php:183
+msgid "Restrict content to "
+msgstr "Contenu restreint "
+
+#: admin/class-age-gate-admin.php:205
+msgid "Do not restrict this page"
+msgstr "Ne pas restreindre cette page"
+
+#: admin/class-age-gate-admin.php:263
+msgid "Restriction settings"
+msgstr "Paramètres de restriction"
+
+#: admin/class-age-gate-admin.php:271
+msgid "Age gate messaging settings"
+msgstr "Barrière d’âge messagerie paramètres"
+
+#: admin/class-age-gate-admin.php:279
+msgid "Age gate style settings"
+msgstr "Paramètres de style de portail âge"
+
+#: admin/class-age-gate-admin.php:287
+msgid "Miscellaneous"
+msgstr "Divers"
+
+#: admin/class-age-gate-admin.php:307
+msgid "Users must be"
+msgstr "Les utilisateurs doivent être"
+
+#: admin/class-age-gate-admin.php:318
+msgid "years or older to view content"
+msgstr "ans ou plus pour afficher le contenu"
+
+#: admin/class-age-gate-admin.php:324
+msgid "Restrict"
+msgstr "Limiter"
+
+#: admin/class-age-gate-admin.php:333
+msgid "All content"
+msgstr "Tout le contenu"
+
+#: admin/class-age-gate-admin.php:333
+msgid "Selected Content"
+msgstr "Contenu sélectionné"
+
+#: admin/class-age-gate-admin.php:342
+msgid "Restrict registration"
+msgstr "Limiter l’enregistrement"
+
+#: admin/class-age-gate-admin.php:350
+msgid "Age check users during registering"
+msgstr "Utilisateurs de cocher âge au cours de l’enregistrement"
+
+#: admin/class-age-gate-admin.php:352
+msgid "Your site does not allow registration, so this option is not applicable"
+msgstr ""
+"Votre site ne permet pas l’enregistrement, donc cette option n’est pas "
+"applicable"
+
+#: admin/class-age-gate-admin.php:358
+msgid "Validate age using"
+msgstr "Valider à l’aide de l’âge"
+
+#: admin/class-age-gate-admin.php:367
+msgid "Input fields"
+msgstr "Champs d'entrée"
+
+#: admin/class-age-gate-admin.php:367
+msgid "Dropdown boxes"
+msgstr "Listes déroulantes"
+
+#: admin/class-age-gate-admin.php:367
+msgid "Yes/No"
+msgstr "Oui/Non"
+
+#: admin/class-age-gate-admin.php:373
+msgid "Remember"
+msgstr "Se souvenir"
+
+#: admin/class-age-gate-admin.php:381
+msgid "Enable \"remember me\" checkbox"
+msgstr "Activez la case à cocher se souvenir de moi"
+
+#: admin/class-age-gate-admin.php:388
+msgid "Date format"
+msgstr "Format de la Date"
+
+#: admin/class-age-gate-admin.php:397
+msgid "DD MM YYYY"
+msgstr "JJ MM AAAA"
+
+#: admin/class-age-gate-admin.php:397
+msgid "MM DD YYYY"
+msgstr "MM JJ AAAA"
+
+#: admin/class-age-gate-admin.php:403
+msgid "Ignore logged in"
+msgstr "Ignorer connecté"
+
+#: admin/class-age-gate-admin.php:411
+msgid "Logged in users will not need to provide their age"
+msgstr "Connecté utilisateurs ne devront pas donner leur âge"
+
+#: admin/class-age-gate-admin.php:418
+msgid "No second chance"
+msgstr "Deuxième chance"
+
+#: admin/class-age-gate-admin.php:426
+msgid ""
+"If someone fails the age test, they cannot try again until their next session"
+msgstr ""
+"Si quelqu'un a échoué au test de l’âge, ils ne peuvent pas tester à nouveau "
+"jusqu'à leur prochaine session"
+
+#: admin/class-age-gate-admin.php:433
+msgid "Redirect failures"
+msgstr "Échecs de redirection"
+
+#: admin/class-age-gate-admin.php:441
+msgid ""
+"If someone fails the age test, redirect them to a page or external site "
+"rather than showing errors."
+msgstr ""
+"Si quelqu'un a échoué au test de l’âge, les rediriger vers une page ou site "
+"externe plutôt que des erreurs d’affichage."
+
+#: admin/class-age-gate-admin.php:454
+msgid "Headline"
+msgstr "Sous-titre"
+
+#: admin/class-age-gate-admin.php:471
+msgid "Sub headline"
+msgstr "Sous titre"
+
+#: admin/class-age-gate-admin.php:488
+msgid "Invalid inputs"
+msgstr "entrées invalides"
+
+#: admin/class-age-gate-admin.php:505
+msgid "Under age"
+msgstr "Responsabilité pénale des mineurs"
+
+#: admin/class-age-gate-admin.php:522
+msgid "Generic error"
+msgstr "Erreur générique"
+
+#: admin/class-age-gate-admin.php:542
+msgid "Logo"
+msgstr "Logo"
+
+#: admin/class-age-gate-admin.php:556
+msgid "Submit button text"
+msgstr "Texte du bouton de soumission"
+
+#: admin/class-age-gate-admin.php:579
+msgid "Background colour"
+msgstr "Couleur d’arrière plan"
+
+#: admin/class-age-gate-admin.php:595
+msgid "Background image"
+msgstr "Image d'arrière-plan"
+
+#: admin/class-age-gate-admin.php:610
+msgid "Foreground colour"
+msgstr "Couleur de premier plan"
+
+#: admin/class-age-gate-admin.php:626
+msgid "Text colour"
+msgstr "Couleur texte"
+
+#: admin/class-age-gate-admin.php:642
+msgid "Layout"
+msgstr "Disposition"
+
+#: admin/class-age-gate-admin.php:650 admin/class-age-gate-admin.php:667
+msgid "Use plugin style on the front end"
+msgstr "Utiliser le style de plugin sur le serveur frontal"
+
+#: admin/class-age-gate-admin.php:659
+msgid "Additional content"
+msgstr "Contenu additionnel"
+
+#: admin/class-age-gate-admin.php:774
+msgid "Select"
+msgstr "Sélectionne"
+
+#: admin/class-age-gate-admin.php:803
+msgid "Use this area to add an addtional info or terms of entry."
+msgstr ""
+"Utilisez cette zone pour ajouter une info supplémentaire ou des conditions "
+"d’entrée."
+
+#: admin/class-age-gate-admin.php:830
+msgid "Custom"
+msgstr "Coutume"
+
+#: admin/class-age-gate-admin.php:838
+msgid "Choose link"
+msgstr "Cliquez sur lien"
+
+#: admin/class-age-gate-admin.php:841
+msgid "Remove link"
+msgstr "Supprimer le lien"
+
+#: admin/class-age-gate-admin.php:862
+msgid "Update the look of the age gate."
+msgstr "Mise à jour le look de la barrière de l’âge."
+
+#: admin/class-age-gate-admin.php:865
+msgid "Set the messages users see on the age gate."
+msgstr "Définir les messages utilisateurs voient sur la barrière de l’âge."
+
+#: admin/class-age-gate-admin.php:868
+msgid "Miscellaneous options."
+msgstr "Options diverses"
+
+#: admin/class-age-gate-admin.php:871
+msgid "Set the restrictions for your site."
+msgstr "Définir les restrictions pour votre site."
+
+#: admin/class-age-gate-admin.php:891
+msgid "Add image"
+msgstr "Ajouter une image"
+
+#: admin/class-age-gate-admin.php:898
+msgid "Remove image"
+msgstr "Supprimer l’image"
+
+#: public/class-age-gate-public.php:375
+msgid "Age Verification"
+msgstr "Vérification de l’âge"
+
+#: public/partials/age-gate-public-display.php:73
+msgid "Your input was invalid"
+msgstr "Votre entrée était invalide."
+
+#: public/partials/age-gate-public-display.php:81
+#: public/partials/age-gate-public-display.php:102
+msgid "You are not old enough to view this content"
+msgstr "Vous n’êtes pas assez vieux pour voir ce contenu"
+
+#: public/partials/age-gate-public-display.php:85
+msgid "Nonce failure, please try again"
+msgstr "Défaillance du nonce, Veuillez réessayer"
+
+#: public/partials/age-gate-public-display.php:92
+msgid "An error occured, please try again"
+msgstr "Une erreur est survenue , s’il te plaît essayer de nouveau"
+
+#: public/partials/age-gate-public-display.php:108
+msgid "Remember me"
+msgstr "Erinnere dich an mich"
+
+#: public/partials/form/buttons.php:1
+#, php-format
+msgid "Are you over %s years of age?"
+msgstr "Vous êtes au fil des ans %s ?"
+
+#: public/partials/form/buttons.php:3
+msgid "Yes"
+msgstr "Oui"
+
+#: public/partials/form/buttons.php:4
+msgid "No"
+msgstr "Non"
+
+#: public/partials/form/inputs.php:15 public/partials/form/selects.php:16
+msgid "Year"
+msgstr "Année"
+
+#: public/partials/form/inputs.php:16 public/partials/form/selects.php:18
+msgid "YYYY"
+msgstr "AAAA"
+
+#: public/partials/form/sections/input-day.php:2
+#: public/partials/form/sections/select-day.php:2
+msgid "Day"
+msgstr "Jour"
+
+#: public/partials/form/sections/input-day.php:3
+#: public/partials/form/sections/select-day.php:4
+msgid "DD"
+msgstr "DD"
+
+#: public/partials/form/sections/input-month.php:2
+#: public/partials/form/sections/select-month.php:2
+msgid "Month"
+msgstr "Mois"
+
+#: public/partials/form/sections/input-month.php:3
+#: public/partials/form/sections/select-month.php:4
+msgid "MM"
+msgstr "MM"
+
+#: public/partials/form/sections/select-month.php:5
+msgid "Jan"
+msgstr "Jan"
+
+#: public/partials/form/sections/select-month.php:6
+msgid "Feb"
+msgstr "Fév"
+
+#: public/partials/form/sections/select-month.php:7
+msgid "Mar"
+msgstr "Mar"
+
+#: public/partials/form/sections/select-month.php:8
+msgid "Apr"
+msgstr "Avr"
+
+#: public/partials/form/sections/select-month.php:9
+msgid "May"
+msgstr "Mai"
+
+#: public/partials/form/sections/select-month.php:10
+msgid "Jun"
+msgstr "Juin"
+
+#: public/partials/form/sections/select-month.php:11
+msgid "Jul"
+msgstr "Juil"
+
+#: public/partials/form/sections/select-month.php:12
+msgid "Aug"
+msgstr "Août"
+
+#: public/partials/form/sections/select-month.php:13
+msgid "Sep"
+msgstr "Sept"
+
+#: public/partials/form/sections/select-month.php:14
+msgid "Oct"
+msgstr "Oct"
+
+#: public/partials/form/sections/select-month.php:15
+msgid "Nov"
+msgstr "Nov"
+
+#: public/partials/form/sections/select-month.php:16
+msgid "Dec"
+msgstr "Déc"
+
+#. Plugin URI of the plugin/theme
+msgid "https://philsbury.uk/wordpress-age-gate-plugin"
+msgstr "https://philsbury.uk/wordpress-age-gate-plugin"
+
+#. Description of the plugin/theme
+msgid "A customisable age gate to block content from younger people"
+msgstr "Un portail personnalisable âge pour bloquer le contenu de jeunes"
+
+#. Author of the plugin/theme
+msgid "Phil Baker"
+msgstr "Phil Baker"
+
+#. Author URI of the plugin/theme
+msgid "https://philsbury.uk"
+msgstr "https://philsbury.uk"
